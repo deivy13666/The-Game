@@ -24,21 +24,6 @@ body{
   font-size: 3em;
   color: #DCFF0E;
   width: 100%;
-  margin: 0;
-  padding: 5px;
-}
-.titulo2{
-  font-family: gameFont;
-  font-size: 3em;
-  color: red;
-  width: 100%;
-}
-.termin{
-  font-family: gameFont;
-  font-size: 3em;
-  color: #DCFF0E;
-  width: 100%;
-  text-align: center;
 }
 
 .panel-tablero{
@@ -50,26 +35,9 @@ body{
   display: flex;
   flex-flow: row wrap;
 }
-.panel-tablero2{
-  width: 0%;
-  border: 10px solid #E87306;
-  background: rgba(232, 115, 6, 0.5);
-  border-radius: 5px;
-  height: 700px;
-  display: flex;
-  flex-flow: row wrap;
-  visibility: hidden;
-}
 
 .panel-score{
   width: 25%;
-  height: 700px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-}
-.panel-score2{
-  width: 98%;
   height: 700px;
   display: flex;
   flex-flow: column nowrap;
@@ -85,15 +53,7 @@ body{
   border-radius: 5px;
   background: rgba(232, 115, 6, 0.5);
 }
-.tiempo2{
-  text-align: center;
-  height: 23%;
-  width: 100%;
-  border: 10px solid #E87306;
-  border-radius: 5px;
-  background: rgba(232, 115, 6, 0.5);
-  visibility: hidden;
-}
+
 
 .buttons{
   height: 10%;
@@ -113,14 +73,6 @@ body{
   color: #DCFF0E;
 }
 .btn-reinicio{
-  background: #E8CA06;
-  border: 6px solid #FFB206;
-  border-radius: 5px;
-  font-family: gameFont;
-  font-size: 1.2em;
-  color: #FF4007;
-}
-.btn-inicio{
   background: #E8CA06;
   border: 6px solid #FFB206;
   border-radius: 5px;
@@ -148,7 +100,7 @@ div[class^='col']{
 }
 
 .elemento{
-  width: 20.4px;
-  height: auto;
+  width: 99.4px;
+  height: 96px;
 
 }
